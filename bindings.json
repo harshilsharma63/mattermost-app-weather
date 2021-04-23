@@ -1,0 +1,24 @@
+{
+	"type": "ok",
+	"data": [
+		{
+			"location": "/command",
+			"bindings": [
+				{
+					"icon": "http://localhost:8080/static/icon.png",
+					"label": "weather",
+					"description": "Ask me any city's weather",
+					"bindings": [
+						{
+							"location": "city",
+							"label": "city",
+							"call": {
+								"path": "/send"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
