@@ -136,7 +136,7 @@ type Sys struct {
 }
 
 func (r *Response) ToMessage() string {
-	template := "%s\n##### **%s**\n# **%.2f°C**\n**Feels Like %.2f°C. %s**\n**Wind:** %.2f m/s from %d°\n**Pressure:**  %d hPa\n**Humidity:** %d"
+	template := "%s\n##### **%s**\n# **%.2f °C**\n**Feels Like %.2f °C. %s**\n**Wind:** %.2f m/s from %d°\n**Pressure:**  %d hPa\n**Humidity:** %d"
 	return fmt.Sprintf(
 		template,
 		time.Now().Format("3:04PM, Jan 6"),

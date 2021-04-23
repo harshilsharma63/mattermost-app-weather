@@ -59,6 +59,8 @@ for example-
 /weather city --message Delhi
 ```
 
-ANd you'll get the 
+You'll get teh weather DM'ed you by the weatherbot -
+
+![](https://i.imgur.com/bq0xZdl.png)
 
 
